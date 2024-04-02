@@ -1,0 +1,11 @@
+why name is index?
+
+1. Tags <> </>
+2. Html semantic : <header> <footer> etc
+3. Meta tag is nothing but just additional information
+4. &nbsp --> two element ke beech me ata hai, dono ek sath rahe 
+             jab responsive website use mein rahengi
+5. relative link(jab origin same rakhna hai) v absolute link(jab kisi aur link pe jana hai)
+6. Difference between html5 and xhtml
+7. Div is not semantic
+8. Types difference between all target value
