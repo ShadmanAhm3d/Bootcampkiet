@@ -9,3 +9,15 @@ why name is index?
 6. Difference between html5 and xhtml
 7. Div is not semantic
 8. Types difference between all target value
+
+//CSS starts here
+logical pxl v physical pxl
+why boder show 0.98989 instead of one
+
+
+font size : x em ; font parent pe depend karte hai 
+but other than font size , har property ke liye child pe depend karta hai
+
+
+and jab ham rem use karte hai to wo ekdam root element ke font size pe depent karta hai 
+

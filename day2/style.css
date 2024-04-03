@@ -1,0 +1,155 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+
+/* .parent {
+  background-color: red;
+  border: 2px solid white;
+  padding: 16px;
+  /* margin: 16px; */
+/* width: 120px; */
+/* } */
+
+/* .heading {
+  background-color: red;
+  border: 2px solid white;
+} */
+
+/* .parent p {
+  color: red;
+}
+
+.parent {
+  p {
+    background-color: lightcoral;
+  }
+
+  span {
+    background-color: red;
+  }
+} */
+
+
+/*
+.parent {
+  width: 200px;
+  background-color: aquamarine;
+  text-align: center;
+  margin: 0 0 0 auto;
+}
+
+img {
+  display: block;
+  height: 400px;
+  width: 400px;
+  border: 2px solid black;
+  margin: 0 auto;
+}
+
+*/
+
+
+
+/*
+.parent {
+  font-size: 10rem;
+}
+
+.child {
+  font-size: 6rem;
+} */
+
+/* .btn {
+  display: block;
+  padding: 1em;
+  border: none;
+  margin: 0 auto;
+  border-radius: 12px;
+  font-size: 16px;
+  width: 20em;
+  margin-bottom: 5px;
+
+}
+
+.btn-small {
+  font-size: 20px;
+} */
+
+
+body {
+  height: 100vh;
+  width: 100vw;
+}
+
+/*
+.parent {
+
+  ol {
+    background-color: red;
+  }
+
+  ul:first-child {
+    background-color: lightpink;
+  }
+
+  ul:last-child {
+    background-color: lightskyblue;
+
+    li:nth-child(2) {
+      background-color: lightgreen;
+    }
+  }
+}
+
+
+
+
+ol {
+  background-color: mediumaquamarine;
+}
+
+ul {
+  background-color: cornflowerblue;
+}
+
+ol:nth-child(3) li:nth-child(2) {
+  color: red;
+  font-weight: bold;
+} */
+
+
+.parent1 {
+  height: 5%;
+  background-color: aqua;
+  display: flex;
+  justify-content: space-around;
+}
+
+.parent2 {
+  height: 5%;
+  background-color: red;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.parent3 {
+  height: 5%;
+  background-color: palevioletred;
+  display: flex;
+  justify-content: space-between;
+}
+
+.parent4 {
+  height: 5%;
+  background-color: rebeccapurple;
+  display: flex;
+  justify-content: center;
+}
+
+.child {
+  border: 2px solid black;
+  width: 40px
+}
