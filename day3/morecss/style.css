@@ -1,0 +1,147 @@
+ * {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+ }
+
+ /* body {
+  min-height: 100vh;
+  min-width: 100vw;
+  background-color: grey;
+} */
+
+ /* .container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+} */
+
+ /* .parent {
+  background-color: yellow;
+  height: 100px;
+  width: 100px;
+
+  position: fixed;
+  top: 0px;
+} */
+
+
+ /* .p1 {
+   transition-property: height, width;
+   transition-duration: 1s;
+   transition-timing-function: ease-in-out;
+
+   background-color: blueviolet;
+   color: white;
+   width: 400px;
+   height: 400px;
+   text-align: center;
+   padding: 16px;
+
+
+   h1 {
+     height: 75px;
+   }
+
+ }
+
+ @media (800px <=width <=1200px) {
+   .p1 {
+     background-color: red;
+   }
+
+ }
+
+
+ @media (200px <=width <=400px) {
+   .p1 {
+     background-color: black;
+     height: 100px;
+     width: 100px;
+   }
+
+ } */
+
+
+ /* button {
+   position: absolute; */
+ /* top: 50%;
+   left: 50%; */
+ /* padding: 8px 16px;
+   border: none;
+   font-size: 20px;
+   border-radius: 2%;
+
+
+   transition-property: scale;
+   transition-duration: 300ms;
+   transition-timing-function: ease-in-out;
+
+
+ } */
+
+ /*
+ button:hover {
+   background-color: yellowgreen;
+   padding: 30px;
+   scale: 1.1;
+ } */
+
+
+
+ button {
+   scale: 2;
+
+   position: absolute;
+   top: 20px;
+   left: 20px;
+
+
+   animation-name: button-animation-type1;
+   animation-duration: 2s;
+   animation-timing-function: linear;
+   animation-iteration-count: infinite;
+   animation-direction: alternate;
+ }
+
+ @keyframes button-animation-type1 {
+
+   0% {
+     top: 20px;
+     left: 40px;
+   }
+
+   30% {
+     top: 20px;
+     left: 500px;
+   }
+
+   60% {
+     top: 400px;
+     left: 50px;
+   }
+
+   100% {
+     top: 500px;
+     left: 40px;
+   }
+ }
+
+
+ .parent {
+   display: flex;
+ }
+
+ .logo {
+   width: 100px;
+   border-bottom: 1px solid red;
+   padding: 16px;
+ }
+
+ .nav {
+   background-color: aquamarine;
+   padding: 16px;
+   /* flex-basis:auto g */
+   /* flex-grow: 1; */
+   width: calc(100% - 50px);
+ }
