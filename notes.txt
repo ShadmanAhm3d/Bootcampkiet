@@ -21,3 +21,25 @@ but other than font size , har property ke liye child pe depend karta hai
 
 and jab ham rem use karte hai to wo ekdam root element ke font size pe depent karta hai 
 
+
+grid-temp-colums : kitni coloums chaihye (parent)
+grid-temp-rows : kitni rows chahiye  (parent)
+grid-auto-rows : self expplanatory
+
+homework : grid-area
+
+TRY:  grid-template-columns: repeat(auto-fit, minmax(50px, 1fr));
+
+
+
+//JS 
+
+
+objects 
+
+
+
+FOR OF LOOP AND FOR IN LOOP : 
+for off array pe chalta hai meaning array based indxing karta hai
+    but for in loop element ke taraf
+C++ ke hisab se forloop v range based loop ke tarah samjh sakte ho
