@@ -155,3 +155,11 @@ document.body.appendChild(ne)
 const firrstDiv = document.getElementById("ht2")
 console.log(firrstDiv)
 firrstDiv.appendChild(ne);
+
+
+
+
+
+
+
+
