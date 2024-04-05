@@ -106,4 +106,52 @@ for (let i in x) {
 
 
 
+//DOM 
 
+//ye ek api hai jo js provide karta hai html and css modify karne ke liye 
+
+
+/* console.log(
+  window
+)
+*/
+
+
+/* const res = document.getElementById('ht1')
+console.log(res) */
+
+
+
+/* const res = document.querySelectorAll('h3.c1')
+const res2 = document.querySelectorAll('div>h3')
+console.log(res)
+console.log(res2) */
+
+
+
+
+/* const res = document.getElementById("ht1")
+res['innerHTML'] = "PEWMEWDEW";
+
+const res2 = document.getElementsByTagName("div")
+
+
+res2[0].innerText = "Heelo world"
+res2[0].innerHTML = "<h1>Heelo world</h1>"
+console.log(res2)
+
+
+
+
+*/
+
+
+
+
+
+const ne = document.createElement("h3")
+ne.innerText = "Konichiwa MF"
+document.body.appendChild(ne)
+const firrstDiv = document.getElementById("ht2")
+console.log(firrstDiv)
+firrstDiv.appendChild(ne);

@@ -43,3 +43,9 @@ FOR OF LOOP AND FOR IN LOOP :
 for off array pe chalta hai meaning array based indxing karta hai
     but for in loop element ke taraf
 C++ ke hisab se forloop v range based loop ke tarah samjh sakte ho
+
+
+
+Question.)Difference between iterables and arrays in JS
+
+Deep copy v shallow copy
