@@ -49,3 +49,6 @@ C++ ke hisab se forloop v range based loop ke tarah samjh sakte ho
 Question.)Difference between iterables and arrays in JS
 
 Deep copy v shallow copy
+
+
+higher order functions 
