@@ -52,3 +52,67 @@ Deep copy v shallow copy
 
 
 higher order functions 
+
+
+* Read about call stack in JS , for functions like setTimeOUT(),
+
+
+# Read about Event Loop and Callstacks and Microtask queues
+==Event loops starts its execution after once the call stack is empty
+== Microtask queue high priority queue hai , jaise fetch promises ke call back jaate he
+== Call back queue less important hai , setTimeout jaise ishi mein jaate hai
+
+
+#Read about inversion of control
+
+
+
+#map function
+
+
+#filter
+: returns a new array 
+: useful for filtering out shit
+
+
+
+#Reduce
+
+:Returns a single value
+
+//first value is accumulator 
+
+
+
+
+
+
+#NodeJS Starts Here 
+
+
+Latency : 
+roudnTripLatency: 
+
+Bandwidth:Total Capacity 
+Throughput : Real total Capacity
+
+Processing Time: Time taken by server to process request
+Response time: Time taken to by server to send response
+Total response time : Latency + roudnTripLatency+ ProccesingTIME
+
+IP adress,MacAdress,Router,ISP,Internet,DNS,Http v https
+
+
+
+##Read about NOdejs Story
+
+
+
+
+
+
+
+
+
+
+
