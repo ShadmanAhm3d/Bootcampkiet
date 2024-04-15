@@ -109,6 +109,34 @@ IP adress,MacAdress,Router,ISP,Internet,DNS,Http v https
 
 
 
+##
+There are basically three types of nodejs apis , promise api , syncronous api and callback api
+
+
+##Fs
+
+fs.readFileSync(path,{encoding})
+
+//use of buffer???
+
+fs.readfile;
+
+
+Promsise code ko async banate hai ,that result in smooth ooperation and does not block the end code 
+
+
+
+
+URL v URI 
+
+https:// Protocol
+
+www.amazon.com // Domain name or origin
+
+/product/electronics/  // Paths
+
+?prefix=1299 //Query
+
 
 
 

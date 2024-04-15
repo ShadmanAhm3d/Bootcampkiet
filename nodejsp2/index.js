@@ -3,7 +3,6 @@
   console.log(data);
 }) */
 
-
 /* fetch("https://api.github.com/user/ShadmanAhm3d")
   .then((res) => {
     return res.json();
@@ -15,17 +14,12 @@
     )
   });*/
 
-
 //async await
 
-
-
-
 async function fgetAPI() {
-  const pr = await fetch("https://api.github.com/users/ShadmanAhm3d")
+  const pr = await fetch("https://api.github.com/users/ShadmanAhm3d");
   const res = await pr.json();
-  console.log(res)
+  console.log(res);
 }
 
 fgetAPI();
-
