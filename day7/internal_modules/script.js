@@ -108,6 +108,7 @@ const allCards = ParsedProducts.map((elem) => {
   newCard = newCard.replace("Titile", elem.title);
   newCard = newCard.replace("__THUMBNAIL", elem.thumbnail);
   newCard = newCard.replace("Ifo", elem.description);
+  newCard = newCard.replace("Price", elem.price);
   let id = elem.id;
   newCard = newCard.replace("__LINK", `http://localhost:3000/products/${id}`);
   return newCard;
@@ -117,6 +118,12 @@ const allCardString = allCards.join(" ");
 
 const page = htmlTemplate.replace("__PRODUCTS CARDS", allCardString);
 
+const inputElem = `
+<form action='/products' method="GET">
+<input type="text" placeholder="search here" name="id" />
+<button type="submit">Submit</button>
+</form>
+`;
 /* const app = http.createServer((req, res) => {
   console.log(req.url);
   res.writeHead(200, { "content-type": "text/html" });
@@ -124,11 +131,12 @@ const page = htmlTemplate.replace("__PRODUCTS CARDS", allCardString);
 }); */
 
 app.get("/", (req, res) => {
-  res.send(page);
+  res.send(inputElem + page);
 });
 
+//TODO: deatils dikhao
 app.get("/products/:id", (req, res) => {
-  const id = parseInt(req.params.id);
+  const id = parseInt(req.params.id); // Extract the product ID from the URL
   const product = ParsedProducts.find((elem) => elem.id === id);
   if (product) {
     let productDetails = `
@@ -146,6 +154,16 @@ app.get("/products/:id", (req, res) => {
   }
 });
 
+// Define the route for handling search requests
+app.get("/products", (req, res) => {
+  const id = parseInt(req.query.id); // Extract the product ID from the query string
+  const product = ParsedProducts.find((elem) => elem.id === id);
+  if (product) {
+    res.redirect(`/products/${id}`);
+  } else {
+    res.status(404).send("Product not found");
+  }
+});
 const PORT = 3000;
 app.listen(PORT, () => {
   console.log(`Server started at http://localhost:${PORT}/`);
